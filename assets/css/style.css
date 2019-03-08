@@ -1,0 +1,101 @@
+body {
+    padding-top: 54px;
+    
+}
+
+@media (min-width: 992px) {
+body {
+    padding-top: 56px;
+    }
+}
+
+.navbar-nav li{
+    padding-left: 20px;
+}
+section{
+
+    padding-top: 5%;
+    padding-bottom: 2%;
+
+}
+section h2{
+    text-align: center;
+}
+section form{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+#contato ul{
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+}
+
+#contato li{
+
+    display: inline-block; 
+    *display: inline;
+    list-style-type: none;
+    padding-right: 50px;
+}
+
+#contato a{
+
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+    text-indent: -9999px; 
+}
+
+#contato .twitter{
+    background-image: url('../img/site/twitter-64px.png');
+}
+
+#contato .site{
+    background-image: url('../img/site/url-64px.png');
+}
+
+#listagem div{
+    padding-top: 5%;
+  
+}
+#listagem h2{
+    color: #62D5F3;
+}
+#listagem img{
+    margin-left: 40%;
+    margin-bottom: 10%;
+}
+
+#listagem-jogadores{
+    margin-bottom: 25%;
+}
+#listagem-jogadores div{
+    padding-top: 5%;
+}
+
+
+footer{
+    padding-top: 5%;
+    
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer#fundo{
+    background-image: url('../img/site/fundo.png');
+    background-size: 50%;
+}
+
+
+nav#fundo.navbar{
+    background-image: url('../img/site/fundo.png');
+    background-size: 50%;
+}
+#sobre{
+    color: #2ABEC8;
+}
